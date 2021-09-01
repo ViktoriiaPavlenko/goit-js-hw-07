@@ -20,5 +20,3 @@ const createImage = ({ url, alt }) => {
 }
 const imagesMarkup = images.map(createImage).join('');
 galleryEl.insertAdjacentHTML('afterbegin', imagesMarkup)
-
-
